@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+int x, y, media;
+
+printf ("Digite a altura: ");
+scanf ("%d", &y);
+printf ("Digite a base: ");
+scanf ("%d", &x);
+
+media = (x * y)/2;
+
+printf ("A área de um triângulo é igual a: %d", media);
+  
+return 0;
+}
